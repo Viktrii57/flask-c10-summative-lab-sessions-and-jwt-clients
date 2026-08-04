@@ -14,3 +14,28 @@ A RESTful Flask API backend delivering full user authentication, session-based r
 
    ```bash
    cd server
+
+2. **Install dependancies via pipenv:**
+
+   bash
+   pipenv install
+   pipenv shell
+
+3. **Initialize and seed the SQLite database:**
+
+   bash
+   flask db init
+   flask db migrate -m "Initial schema setup"
+   flask db upgrade
+   python seed.py
+
+## Run Instructions
+
+1. **Start the development server:**
+
+   bash
+   python app.py
+
+   **API Base URL: http://127.0.0.1:5555**
+
+
