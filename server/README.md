@@ -39,9 +39,9 @@ A RESTful Flask API backend delivering full user authentication, session-based r
    **API Base URL: http://127.0.0.1:5555**
 
 
-### Git Workflow Strategy
+### Git Workflow 
 
-To maximize your score on **Git Workflow & Management** 
+**Git Workflow & Management** 
 
 ```bash
 # 1. Create a feature branch
