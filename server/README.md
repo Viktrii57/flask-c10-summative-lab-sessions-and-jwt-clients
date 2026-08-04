@@ -39,3 +39,23 @@ A RESTful Flask API backend delivering full user authentication, session-based r
    **API Base URL: http://127.0.0.1:5555**
 
 
+### Git Workflow Strategy
+
+To maximize your score on **Git Workflow & Management** 
+
+```bash
+# 1. Create a feature branch
+git checkout -b feature/auth-and-crud
+
+# 2. Stage and commit regularly with clear messages
+git add server/
+git commit -m "feat: setup Flask app factory, models, and bcrypt hashing"
+
+git commit -m "feat: implement session auth endpoints and check_session route"
+
+git commit -m "feat: implement user-isolated resource CRUD and pagination"
+
+# 3. Push and merge back to main
+git checkout main
+git merge feature/auth-and-crud
+git push origin main
